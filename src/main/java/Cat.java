@@ -1,4 +1,6 @@
 public class Cat {
+    private String name;
+
     public Cat() {
     }
 
@@ -6,7 +8,6 @@ public class Cat {
         this.name = name;
     }
 
-    private String name;
 
     public String getCat() {
         return name;
